@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Quality Attribute Sorter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Which attribute is more important in service quality of bus?</h1>
+        <div id="sorter">
+            <ul id="items">
+                <li data-value="ketersediaan">ketersediaan</li>
+                <li data-value="keselesaan">keselesaan</li>
+                <li data-value="kebolehpercayaan">kebolehpercayaan</li>
+                <li data-value="kesesuaian">kesesuaian</li>
+                <li data-value="kemudahan">kemudahan</li>
+                <li data-value="tambang bas">tambang bas</li>
+                <li data-value="ciri-ciri">ciri-ciri</li>
+                <li data-value="kelakuan">kelakuan</li>
+                <li data-value="informasi">informasi</li>
+                <li data-value="muatan">muatan</li>
+                <li data-value="kebolehcapaian">kebolehcapaian</li>
+                <li data-value="keselamatan">keselamatan</li>
+                <li data-value="kelajuan">kelajuan</li>
+            </ul>
+        </div>
+        <button onclick="getRankings()">Get Rankings</button>
+        <div id="results"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
